@@ -1,37 +1,19 @@
-## Welcome to GitHub Pages
+## Welcome to my Custom Page!
 
-You can use the [editor on GitHub](https://github.com/JMDowns/JMDowns.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+This is just something I set up for the KU ACM Programming Club on the 19th of February. Here is a link to KU ACM's [website](https://acmatku.github.io/). 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Do you want to see some code? I do!
+'''markdown
 
-### Markdown
+fn hello_world(x: i32) -> i32 {
+  for \_i in 0..x {
+    println!("Hello World!");
+  }
+}
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+'''
 
-```markdown
-Syntax highlighted code block
+Now, wasn't that just splendid? The code that is used to display all of this is Markdown, which you can learn [here](https://guides.github.com/features/mastering-markdown/). 
+A cheatsheet for Markdown is [here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/JMDowns/JMDowns.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Go wild! You can link to your projects, any work you've done, or even your own resume!
