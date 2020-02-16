@@ -16,4 +16,4 @@ fn hello_world(x: i32) -> i32 {
 The code that is used to display all of this is Markdown, which you can learn [here](https://guides.github.com/features/mastering-markdown/). 
 A cheatsheet for Markdown is [here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
 
-Go wild! You can link to your projects, any work you've done, or even your own [resume](https://github.com/JMDowns/JMDowns.github.io/blob/master/resume.txt)!
+Go wild! You can link to your projects, any work you've done, or even your own [resume](resume.txt)!
