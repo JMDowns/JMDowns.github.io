@@ -3,7 +3,7 @@
 This is just something I set up for the KU ACM Programming Club on the 19th of February. Here is a link to KU ACM's [website](https://acmatku.github.io/). 
 
 Do you want to see some code? I do!
-'''markdown
+'''rust
 
 fn hello_world(x: i32) -> i32 {
   for \_i in 0..x {
