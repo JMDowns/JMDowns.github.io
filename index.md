@@ -6,7 +6,7 @@ Do you want to see some code? I do!
 ```rust
 
 fn hello_world(x: i32) -> i32 {
-  for \_i in 0..x {
+  for _i in 0..x {
     println!("Hello World!");
   }
 }
