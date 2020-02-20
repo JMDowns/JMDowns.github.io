@@ -14,6 +14,12 @@ fn hello_world(x: i32) -> i32 {
 }
 
 ```
+```c++
+
+void main() {
+}
+
+```
 
 The code that is used to display all of this is Markdown, which you can learn [here](https://guides.github.com/features/mastering-markdown/). 
 A cheatsheet for Markdown is [here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
