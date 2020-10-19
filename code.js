@@ -28,7 +28,7 @@ slider.oninput = () => {
     sizeText.innerHTML = slider.value;
 }
 
-slider.addEventListener('mouseup', (event) => {
+slider.onchange = () => {
     if (game_started) {
 	return;
     }
@@ -46,7 +46,7 @@ slider.addEventListener('mouseup', (event) => {
     grid = new Array(grid_size*grid_size).fill(0);
     new_grid = new Array(grid_size*grid_size).fill(0);
 
-});
+}
 
 var interval;
 
