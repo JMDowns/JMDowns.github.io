@@ -4,7 +4,7 @@ canvas.width = grid_size*40;
 canvas.height = grid_size*40;
 var ctx = canvas.getContext("2d");
 
-var interval_time = 250;
+var interval_time = Math.floor(1000 / document.getElementById("iterations").value);
 
 for (var i = 0; i < grid_size; i++) {
     for (var j = 0; j < grid_size; j++) {
@@ -13,9 +13,16 @@ for (var i = 0; i < grid_size; i++) {
     }
 }
 
+var aliveRules = [1,1,0,0,1,1,1,1,1]
+var deadRules = [0,0,0,1,0,0,0,0,0]
+
 var sizeText = document.getElementById("size");
-var slider = document.getElementById("myRange");
-sizeText.innerHTML = slider.value;
+var sliderSize = document.getElementById("myRange");
+sizeText.innerHTML = sliderSize.value;
+
+var speedText = document.getElementById("speed");
+var sliderSpeed = document.getElementById("iterations");
+speedText.innerHTML = sliderSpeed.value;
 
 var button = document.getElementById("mybutton");
 
@@ -24,15 +31,146 @@ var new_grid = new Array(grid_size*grid_size).fill(0);
 
 var game_started = false;
 
-slider.oninput = () => {
-    sizeText.innerHTML = slider.value;
+
+A0 = document.getElementById("A0")
+
+A0.onchange = () => {
+aliveRules[0] = A0.checked;
 }
 
-slider.onchange = () => {
+A1 = document.getElementById("A1")
+
+A1.onchange = () => {
+aliveRules[1] = A1.checked;
+}
+
+A2 = document.getElementById("A2")
+
+A2.onchange = () => {
+aliveRules[2] = A2.checked;
+}
+
+A3 = document.getElementById("A3")
+
+A3.onchange = () => {
+aliveRules[3] = A3.checked;
+}
+
+A4 = document.getElementById("A4")
+
+A4.onchange = () => {
+aliveRules[4] = A4.checked;
+}
+
+A5 = document.getElementById("A5")
+
+A5.onchange = () => {
+aliveRules[5] = A5.checked;
+}
+
+A6 = document.getElementById("A6")
+
+A6.onchange = () => {
+aliveRules[6] = A6.checked;
+}
+
+A7 = document.getElementById("A7")
+
+A7.onchange = () => {
+aliveRules[7] = A7.checked;
+}
+
+A8 = document.getElementById("A8")
+
+A8.onchange = () => {
+aliveRules[8] = A8.checked;
+}
+
+
+D0 = document.getElementById("D0")
+
+D0.onchange = () => {
+deadRules[0] = D0.checked;
+}
+
+D1 = document.getElementById("D1")
+
+D1.onchange = () => {
+deadRules[1] = D1.checked;
+}
+
+D2 = document.getElementById("D2")
+
+D2.onchange = () => {
+deadRules[2] = D2.checked;
+}
+
+D3 = document.getElementById("D3")
+
+D3.onchange = () => {
+deadRules[3] = D3.checked;
+}
+
+D4 = document.getElementById("D4")
+
+D4.onchange = () => {
+deadRules[4] = D4.checked;
+}
+
+D5 = document.getElementById("D5")
+
+D5.onchange = () => {
+deadRules[5] = D5.checked;
+}
+
+D6 = document.getElementById("D6")
+
+D6.onchange = () => {
+deadRules[6] = D6.checked;
+}
+
+D7 = document.getElementById("D7")
+
+D7.onchange = () => {
+deadRules[7] = D7.checked;
+}
+
+D8 = document.getElementById("D8")
+
+D8.onchange = () => {
+deadRules[8] = D8.checked;
+}
+
+sliderSpeed.oninput = () => {
+    speedText.innerHTML = sliderSpeed.value;
+    if (game_started) {
+    window.clearInterval(interval);
+    interval_time = Math.floor(1000 / document.getElementById("iterations").value);
+    interval = window.setInterval(() => {
+	    runGame();
+    }, interval_time);
+    }
+}
+
+sliderSpeed.onchange = () => {
+    interval_time = Math.floor(1000 / document.getElementById("iterations").value);
+    if (game_started) {
+    window.clearInterval(interval);
+    interval = window.setInterval(() => {
+	    runGame();
+    }, interval_time);
+    }
+}
+
+sliderSize.oninput = () => {
+    sizeText.innerHTML = sliderSize.value;
+}
+
+sliderSize.onchange = () => {
     if (game_started) {
 	return;
     }
-    grid_size = slider.value;
+    grid_size = sliderSize.value;
     
     canvas.width = grid_size*40;
     canvas.height = grid_size*40;
@@ -51,7 +189,6 @@ slider.onchange = () => {
 var interval;
 
 runGame = () => {
-    console.log(grid);
     for (i = 0; i < grid.length; i++) {
 	var sum = 0;
 	
@@ -85,7 +222,7 @@ runGame = () => {
 	}
 
 	if (grid[i] == 1) {
-	    if (sum > 3 || sum < 2) {
+	    if (aliveRules[sum]){
 		new_grid[i] = 0;
 	    }
 	    else {
@@ -93,7 +230,7 @@ runGame = () => {
 	    }
 	}
 	else {
-	    if (sum == 3) {
+	    if (deadRules[sum]) {
 		new_grid[i] = 1;
 	    }
 	    else {
@@ -127,6 +264,7 @@ draw = () => {
 button.addEventListener('mouseup', (event) => {
     if (!game_started) {
 	button.innerHTML = "Stop";
+	button.style.backgroundColor = "red";
 	game_started = !game_started;
 	//Found the concept of an interval on stackoverflow
 	interval = window.setInterval(() => {
@@ -135,6 +273,7 @@ button.addEventListener('mouseup', (event) => {
     }
     else {
 	button.innerHTML = "Start";
+	button.style.backgroundColor = "green";
 	game_started = !game_started;
 	window.clearInterval(interval);
     }	
