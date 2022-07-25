@@ -1,0 +1,69 @@
+<html>
+  <body>
+    <canvas id="grid" style="float:left;"></canvas>
+    <div style="float:left;">
+      <button id="mybutton" style="height:50px;width:200px;cursor:pointer;background-color:green;color:white;">Start</button><br>
+
+      <text>Current grid size: </text><text id="size">5</text><br>
+      <input type="range" min="5" max="40" value="5" id="myRange"><br>
+      
+      <text>Current tick speed (iterations per second): </text><text id="speed">2</text><br>
+      <input type="range" min="1" max="100" value="5" id="iterations"><br>
+      
+      <text>Will switch with checked neighbors if:</text><br><br>
+
+      <div style="display: table-row;">
+	<div style="display: table-cell;">
+	  <label for="Alive">Alive</label>
+	  <ul style="list-style-type:none;" id="Alive">
+	    <li><input type="checkbox" id="A0" checked>
+	      <label for="A0">0</label></li>
+	    <li><input type="checkbox" id="A1" checked>
+	      <label for="A1">1</label></li>
+	    <li><input type="checkbox" id="A2">
+	      <label for="A2">2</label></li>
+	    <li><input type="checkbox" id="A3">
+	      <label for="A3">3</label></li>
+	    <li><input type="checkbox" id="A4" checked>
+	      <label for="A4">4</label></li>
+	    <li><input type="checkbox" id="A5" checked>
+	      <label for="A5">5</label></li>
+	    <li><input type="checkbox" id="A6" checked>
+	      <label for="A6">6</label></li>
+	    <li><input type="checkbox" id="A7" checked>
+	      <label for="A7">7</label></li>
+	    <li><input type="checkbox" id="A8" checked>
+	      <label for="A8">8</label></li>
+	  </ul>
+	</div>
+
+	<div style="display: table-cell;">
+	  <label for="Dead">Dead</label>
+	  <ul style="list-style-type:none;" id="Dead">
+	    <li><input type="checkbox" id="D0">
+	      <label for="D0">0</label></li>
+	    <li><input type="checkbox" id="D1">
+	      <label for="D1">1</label></li>
+	    <li><input type="checkbox" id="D2">
+	      <label for="D2">2</label></li>
+	    <li><input type="checkbox" id="D3" checked>
+	      <label for="D3">3</label></li>
+	    <li><input type="checkbox" id="D4">
+	      <label for="D4">4</label></li>
+	    <li><input type="checkbox" id="D5">
+	      <label for="D5">5</label></li>
+	    <li><input type="checkbox" id="D6">
+	      <label for="D6">6</label></li>
+	    <li><input type="checkbox" id="D7">
+	      <label for="D7">7</label></li>
+	    <li><input type="checkbox" id="D8">
+	      <label for="D8">8</label></li>
+	  </ul>
+</span>
+</div>
+</div>
+</div>
+</body>
+<script src="code.js"></script>
+</html>
+
