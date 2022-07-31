@@ -7,10 +7,6 @@ categories: voxel links
 
 This post is meant as a repository for links, organized by category, so I don't have 70 tabs open on my phone
 
-Check [this reddit post in VoxelGameDev](https://www.reddit.com/r/VoxelGameDev/wiki/index/) for other links
-
-
-
 ## Pages full of links
 - [VoxelGameDev Links Page](https://www.reddit.com/r/VoxelGameDev/wiki/index/)
 - [Procedural World Generation Background](https://nnarain.github.io/2017/12/15/Procedural-Generation-References.html)
