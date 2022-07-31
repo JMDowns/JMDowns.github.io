@@ -111,6 +111,7 @@ This post is meant as a repository for links, organized by category, so I don't 
 - [Procedural World - Attempts at Terrain](https://nnarain.github.io/2018/05/19/Procedural-World-Attempts-at-Terrain.html)
 - [Procedural World - Water](https://nnarain.github.io/2018/02/11/Procedural-World-Water.html)
 - [Procedural World - Island](https://nnarain.github.io/2018/01/14/Procedural-World-Island.html)
+- [Sebastian Lague's Procedural World Generation](https://www.youtube.com/watch?v=wbpMiKiSKm8&list=PLFt_AvWsXl0eBW2EiBtl_sxmDtSgZBxB3)
 
 ## Chunk Loading/Unloading
 - [Procedural World - New Chunk Management](https://nnarain.github.io/2018/06/16/Procedural-World-New-Chunk-Management.html)
