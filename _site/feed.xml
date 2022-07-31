@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-07-31T15:50:44-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Interesting Links</title><link href="http://localhost:4000/voxel/links/2022/07/31/interesting-links.html" rel="alternate" type="text/html" title="Interesting Links" /><published>2022-07-31T06:27:46-05:00</published><updated>2022-07-31T06:27:46-05:00</updated><id>http://localhost:4000/voxel/links/2022/07/31/interesting-links</id><content type="html" xml:base="http://localhost:4000/voxel/links/2022/07/31/interesting-links.html">&lt;p&gt;This post is meant as a repository for links, organized by category, so I don’t have 70 tabs open on my phone&lt;/p&gt;
+
+&lt;p&gt;Check &lt;a href=&quot;https://www.reddit.com/r/VoxelGameDev/wiki/index/&quot;&gt;this reddit post in VoxelGameDev&lt;/a&gt; for other links&lt;/p&gt;
+
+&lt;h2 id=&quot;pages-full-of-links&quot;&gt;Pages full of links&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.reddit.com/r/VoxelGameDev/wiki/index/&quot;&gt;VoxelGameDev Links Page&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://nnarain.github.io/2017/12/15/Procedural-Generation-References.html&quot;&gt;Procedural World Generation Background&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;rust-stuff&quot;&gt;Rust Stuff&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://nnethercote.github.io/perf-book/title-page.html&quot;&gt;The Rust Performance Book&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.reddit.com/r/rust/comments/rxj81f/rust_profiling/&quot;&gt;Reddit Post on Rust Profiling&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;wgpu-stuff&quot;&gt;WGPU Stuff&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.w3.org/TR/webgpu/&quot;&gt;WGPU W3C Documentation&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://gpuweb.github.io/gpuweb/explainer/&quot;&gt;WGPU Explainer&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;tutorials--concepts&quot;&gt;Tutorials / Concepts&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://sotrh.github.io/learn-wgpu/#what-is-wgpu&quot;&gt;WGPU Tutorial&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=HhH_9DnMBgw&amp;amp;list=PLtrSb4XxIVbodGYZZVzC1PAZfwckrXp_X&quot;&gt;GamesWithGabe’s How to Code Minecraft Series Playlist&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://vkguide.dev/docs/gpudriven/gpu_driven_engines/&quot;&gt;(Vulkan) GPU Driven Rendering&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;blogs--vlogs--youtube-channels&quot;&gt;Blogs / Vlogs / Youtube Channels&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://sites.google.com/site/letsmakeavoxelengine/&quot;&gt;Let’s Make a Voxel Engine&lt;/a&gt; - Google sheets site, vague one&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://0fps.net/category/programming/voxels/&quot;&gt;0fps&lt;/a&gt; - Look at this for data structures, algorithms of voxel engines&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/channel/UCM2RhfMLoLqG24e_DYgTQeA/videos&quot;&gt;John Lin’s Youtube Channel&lt;/a&gt; - How do he do this&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=egOx4jMIaOg&amp;amp;list=PLOIaREn4bEqLQ-eFBDdSKWxrc7q5o_93U&quot;&gt;voxelbee’s Devlog Playlist&lt;/a&gt; - Cache system, LOD, trillions of voxels&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/channel/UC8LhL2je1UQW-7nuEG4XqTg/featured&quot;&gt;frozein’s Youtube Channel&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/channel/UCjVn35Ubo5c2wagQ6bgVT1Q/videos&quot;&gt;Douglas’s Youtube Channel&lt;/a&gt; - Ray marching rendering, low requirement systems&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/channel/UCAGhh86JuPOIm7GeKpRpZlw/featured&quot;&gt;Tooley1998’s Youtube Channel&lt;/a&gt; - Game with voxel engine, building, crafting, monsters&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://iquilezles.org/&quot;&gt;Inigo Quilez’ Blog&lt;/a&gt; - Check this out. Guy made shadertoy, CHECK OUT&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://tomcc.github.io/&quot;&gt;Tommo’s Blog&lt;/a&gt; - Cave Culling Algorithm&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/user/kiwibonga/videos&quot;&gt;Kiwibonga’s YT Channel&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=0VzE8ROwC58&quot;&gt;Teardown’s Twitch Vod on their engine&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;github-repos&quot;&gt;Github Repos&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/nvpro-samples&quot;&gt;Nvidia DesignWorks Samples&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/nnarain/World&quot;&gt;Natesh’s Procedural World Generation Playground&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/nnarain/VoxelEngine&quot;&gt;Natesh’s Voxel Engine&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/cleak/VoxelPerf&quot;&gt;Voxel Performance Testing Sandbox&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;reddit-posts&quot;&gt;Reddit Posts&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.reddit.com/r/VoxelGameDev/comments/cg28db/general_questions_about_making_a_voxel_engine/&quot;&gt;General questions about making a voxel engine&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;performance&quot;&gt;Performance&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://nickmcd.me/2021/04/04/high-performance-voxel-engine/&quot;&gt;High Performance Voxel Engine with Vertex Pooling&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;data-structures--storage&quot;&gt;Data Structures / Storage&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://0fps.net/2012/01/14/an-analysis-of-minecraft-like-engines/&quot;&gt;An analysis of Minecraft-like engines&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.nvidia.com/docs/IO/88972/nvr-2010-001.pdf&quot;&gt;Efficient Sparse Voxel Octrees&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;rendering&quot;&gt;Rendering&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://medium.com/@calebleak/quads-all-the-way-down-simple-voxel-rendering-fea1e4488e26&quot;&gt;Rendering Using Quads&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;meshing&quot;&gt;Meshing&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://0fps.net/2012/06/30/meshing-in-a-minecraft-game/&quot;&gt;Meshing in a Minecraft Engine, Pt. 1&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://0fps.net/2012/07/07/meshing-minecraft-part-2/&quot;&gt;Meshing in a Minecraft Engine, Pt. 2&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://blackflux.wordpress.com/2014/02/23/meshing-in-voxel-engines-part-1/&quot;&gt;Meshing in Voxel Engines - Part 1&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://blackflux.wordpress.com/2014/03/01/meshing-in-voxel-engines-part-2/&quot;&gt;Meshing in Voxel Engines - Part 2&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://blackflux.wordpress.com/2014/03/02/meshing-in-voxel-engines-part-3/&quot;&gt;Meshing in Voxel Engines - Part 3&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://nnarain.github.io/2018/01/07/Procedural-World-Mesh-Optimization.html&quot;&gt;Procedural World - Mesh Optimization&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://vercidium.com/blog/voxel-world-optimisations/&quot;&gt;Voxel World Optimizations&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;textures&quot;&gt;Textures&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://nnarain.github.io/2018/01/28/Procedural-World-Textures.html&quot;&gt;Procedural World - Textures&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;lighting&quot;&gt;Lighting&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://0fps.net/2018/02/21/voxel-lighting/&quot;&gt;Voxel lighting&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://minecraft.fandom.com/wiki/Light&quot;&gt;Minecraft’s Lighting System&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.reddit.com/r/gamedev/comments/2iru8i/fast_flood_fill_lighting_in_a_blocky_voxel_game/&quot;&gt;Fast Flood Fill Lighting in a blocky voxel Game pt. 1&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.reddit.com/r/gamedev/comments/2k7gxt/fast_flood_fill_lighting_in_a_blocky_voxel_game/&quot;&gt;Fast Flood Fill Lighting in a blocky voxel Game pt. 2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;level-of-detail&quot;&gt;Level of Detail&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://0fps.net/2018/03/03/a-level-of-detail-method-for-blocky-voxels/&quot;&gt;A level of detail method for blocky voxels&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;ambient-occlusion&quot;&gt;Ambient Occlusion&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://0fps.net/2013/07/03/ambient-occlusion-for-minecraft-like-worlds/&quot;&gt;Ambient Occlusion for Minecraft-like worlds&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;frustum-culling&quot;&gt;Frustum Culling&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://gist.github.com/nothings/913056601b56e5719cc987684a16544e&quot;&gt;Why Frustum Culling Matters, and why it isn’t important&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://learnopengl.com/Guest-Articles/2021/Scene/Frustum-Culling&quot;&gt;Learn OpenGL - Frustum Culling&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;occlusion-culling&quot;&gt;Occlusion Culling&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.rastergrid.com/blog/2010/10/hierarchical-z-map-based-occlusion-culling/&quot;&gt;Hierarchical-Z map based occlusion culling&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://hannosprogrammingblog.blogspot.com/2017/11/two-phase-occlusion-culling-part-1.html&quot;&gt;Two-phase occlusion culling, pt. 1&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://hannosprogrammingblog.blogspot.com/2018/02/two-phase-occlusion-culling-part-2.html&quot;&gt;Two-phase occlusion culling, pt. 2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;shading&quot;&gt;Shading&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://nnarain.github.io/2015/07/08/Deferred-Shading-with-SGL.html&quot;&gt;Deferred Shading with SGL&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;raymarching&quot;&gt;Raymarching&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=7N2tBk9GfJY&quot;&gt;Raymarching Voxel Terrain on a 7 year old GPU&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://tenebryo.github.io/posts/2021-01-13-voxel-raymarching.html&quot;&gt;Voxel Raymarching&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://medium.com/@calebleak/raymarching-voxel-rendering-58018201d9d6&quot;&gt;Raymarching Voxel Rendering&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://michaelwalczyk.com/blog-ray-marching.html&quot;&gt;Raymarching - Michael Walcyzk&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;raytracing&quot;&gt;Raytracing&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/elieseek/wgpu-raytracer&quot;&gt;Github repo for wgpu raytracer&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.researchgate.net/publication/2611491_A_Fast_Voxel_Traversal_Algorithm_for_Ray_Tracing&quot;&gt;A Fast Voxel Traversal Algorithm for ray tracing&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;player-interaction&quot;&gt;Player Interaction&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://nnarain.github.io/2018/01/17/Procedural-World-Player-Controller.html&quot;&gt;Procedural World - Player Controller&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;terrain-generation&quot;&gt;Terrain Generation&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://nnarain.github.io/2018/05/19/Procedural-World-Attempts-at-Terrain.html&quot;&gt;Procedural World - Attempts at Terrain&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://nnarain.github.io/2018/02/11/Procedural-World-Water.html&quot;&gt;Procedural World - Water&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://nnarain.github.io/2018/01/14/Procedural-World-Island.html&quot;&gt;Procedural World - Island&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;chunk-loadingunloading&quot;&gt;Chunk Loading/Unloading&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://nnarain.github.io/2018/06/16/Procedural-World-New-Chunk-Management.html&quot;&gt;Procedural World - New Chunk Management&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://nnarain.github.io/2018/01/04/Procedural-World-Chunk-Management.html&quot;&gt;Procedural World - Chunk Management&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;examples-of-blogs&quot;&gt;Examples of blogs&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://nnarain.github.io/2017/12/27/World-Part-1.html&quot;&gt;Procedural World - Introduction&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://nnarain.github.io/2015/06/26/Intro-to-my-Voxel-Engine.html&quot;&gt;Voxel Engine - Introduction&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="voxel" /><category term="links" /><summary type="html">This post is meant as a repository for links, organized by category, so I don’t have 70 tabs open on my phone</summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2022/07/25/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2022-07-25T10:22:46-05:00</published><updated>2022-07-25T10:22:46-05:00</updated><id>http://localhost:4000/jekyll/update/2022/07/25/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2022/07/25/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry></feed>
