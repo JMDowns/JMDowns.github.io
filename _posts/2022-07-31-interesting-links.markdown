@@ -30,6 +30,7 @@ This post is meant as a repository for links, organized by category, so I don't 
 - [Let's Make a Voxel Engine](https://sites.google.com/site/letsmakeavoxelengine/) - Google sheets site, vague one
 - [0fps](https://0fps.net/category/programming/voxels/) - Look at this for data structures, algorithms of voxel engines
 - [John Lin's Youtube Channel](https://www.youtube.com/channel/UCM2RhfMLoLqG24e_DYgTQeA/videos) - How do he do this
+- [John Lin's Blog](https://voxely.net/blog/the-perfect-voxel-engine/)
 - [voxelbee's Devlog Playlist](https://www.youtube.com/watch?v=egOx4jMIaOg&list=PLOIaREn4bEqLQ-eFBDdSKWxrc7q5o_93U) - Cache system, LOD, trillions of voxels
 - [frozein's Youtube Channel](https://www.youtube.com/channel/UC8LhL2je1UQW-7nuEG4XqTg/featured)
 - [Douglas's Youtube Channel](https://www.youtube.com/channel/UCjVn35Ubo5c2wagQ6bgVT1Q/videos) - Ray marching rendering, low requirement systems
